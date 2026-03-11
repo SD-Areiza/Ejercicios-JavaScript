@@ -54,7 +54,7 @@ function mostrarMenu() {
                 mostrarInventario();
                 break;
             case "4":
-                console.log("Gracias por jugar.");
+                console.log("Gracias por jugar. No tuviste el valor necesario para continuar, decepcionante para un héroe.");
                 return;
             default:
                 console.log("Opción inválida.");
