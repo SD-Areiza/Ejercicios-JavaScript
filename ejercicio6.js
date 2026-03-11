@@ -30,7 +30,11 @@ function mostrarResultados() {
 }
 
 do {
-    let opcion = prompt("\n1. Registrar pasos\n2. Evaluar meta de pasos\n3. Mostrar resultados\n4. Salir\nSeleccione una opción: ");
+    console.log("1. Registrar pasos");
+    console.log("2. Evaluar meta de pasos");
+    console.log("3. Mostrar resultados");
+    console.log("4. Salir");
+    let opcion = prompt("Seleccione una opción: ");
     if (opcion === "1") {
         registrarPasos();
     } else if (opcion === "2") {

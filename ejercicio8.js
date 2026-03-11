@@ -36,7 +36,11 @@ function agregarProducto() {
 }
 
 do {
-    let opcion = prompt("\n1. Mostrar productos\n2. Comprar producto\n3. Agregar producto\n4. Salir\nSeleccione una opción: ");
+    console.log("1. Mostrar productos");
+    console.log("2. Comprar producto");
+    console.log("3. Agregar producto");
+    console.log("4. Salir");
+    let opcion = prompt("Seleccione una opción: ");
     switch (opcion) {
         case "1":
             mostrarProductos();

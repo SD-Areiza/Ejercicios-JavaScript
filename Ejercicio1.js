@@ -27,7 +27,11 @@ function eliminarProducto() {
 }
 
 do {
-    let opcion = prompt("\n1. Agregar producto\n2. Mostrar carrito\n3. Eliminar producto\n4. Salir\nSeleccione una opción: ");
+    console.log("1. Agregar producto");
+    console.log("2. Mostrar carrito");
+    console.log("3. Eliminar producto");
+    console.log("4. Salir");
+    let opcion = prompt("Seleccione una opción: ");
     switch (opcion) {
         case "1":
             agregarProducto();

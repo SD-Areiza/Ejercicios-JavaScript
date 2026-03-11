@@ -47,7 +47,12 @@ function venderProducto() {
 }
 
 do {
-    let opcion = prompt("\n1. Mostrar inventario\n2. Agregar producto\n3. Eliminar producto\n4. Vender producto\n5. Salir\nSeleccione una opción: ");
+    console.log("1. Mostrar inventario");
+    console.log("2. Agregar producto");
+    console.log("3. Eliminar producto");
+    console.log("4. Vender producto");
+    console.log("5. Salir");
+    let opcion = prompt("Seleccione una opción: ");
     switch (opcion) {
         case "1":
             mostrarInventario();

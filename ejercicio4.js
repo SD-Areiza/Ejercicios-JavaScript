@@ -27,7 +27,11 @@ function mostrarResultados() {
 }
 
 do {
-    let opcion = prompt("\n1. Registrar calificaciones\n2. Clasificar calificaciones\n3. Mostrar resultados\n4. Salir\nSeleccione una opción: ");
+    console.log("1. Registrar calificaciones");
+    console.log("2. Clasificar calificaciones");
+    console.log("3. Mostrar resultados");
+    console.log("4. Salir");
+    let opcion = prompt("Seleccione una opción: ");
     if (opcion === "1") {
         registrarCalificaciones();
     } else if (opcion === "2") {

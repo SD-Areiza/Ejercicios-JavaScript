@@ -28,7 +28,12 @@ function encontrarMaxMin() {
 }
 
 do {
-    let opcion = prompt("\n1. Agregar temperatura\n2. Mostrar temperaturas\n3. Calcular promedio\n4. Encontrar máxima y mínima\n5. Salir\nSeleccione una opción: ");
+    console.log("1. Agregar temperatura");
+    console.log("2. Mostrar temperaturas");
+    console.log("3. Calcular promedio");
+    console.log("4. Encontrar máxima y mínima");
+    console.log("5. Salir");
+    let opcion = prompt("Seleccione una opción: ");
     switch (opcion) {
         case "1":
             agregarTemperatura();

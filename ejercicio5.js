@@ -36,7 +36,12 @@ function elegirCancion() {
 }
 
 do {
-    let opcion = prompt("\n1. Agregar canción\n2. Mostrar canciones\n3. Eliminar canción\n4. Elegir canción para reproducir\n5. Salir\nSeleccione una opción: ");
+    console.log("1. Agregar canción");
+    console.log("2. Mostrar canciones");
+    console.log("3. Eliminar canción");
+    console.log("4. Elegir canción para reproducir");
+    console.log("5. Salir");
+    let opcion = prompt("Seleccione una opción: ");
     if (opcion === "1") {
         agregarCancion();
     } else if (opcion === "2") {

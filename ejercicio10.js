@@ -35,7 +35,12 @@ function mostrarInventario() {
 
 function mostrarMenu() {
     while (vidaJugador > 0 && vidaDragon > 0) {
-        let opcion = prompt("\n1. Atacar\n2. Usar poción\n3. Mostrar inventario\n4. Te rendirás???\nSeleccione una opción: ");
+        console.log("estás a punto de luchar contra el dragón, que deseas hacer?")
+        console.log("1. Atacar");
+        console.log("2. Usar poción");
+        console.log("3. Mostrar inventario");
+        console.log("4. Te rendirás???");
+        let opcion = prompt("Seleccione una opción: ");
         switch (opcion) {
             case "1":
                 atacar();

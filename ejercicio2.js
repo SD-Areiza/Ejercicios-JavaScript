@@ -29,7 +29,11 @@ function consejo() {
 }
 
 do { 
-    let opcion = prompt("\n1. Calcular gastos\n2. Mostrar gastos\n3. Consejos de ahorro\n4. Salir\nSeleccione una opción: ");
+    console.log("1. Calcular gastos");
+    console.log("2. Mostrar gastos");
+    console.log("3. Consejos de ahorro");
+    console.log("4. Salir");
+    let opcion = prompt("Seleccione una opción: ");
     if (opcion === "1") {
         calcularGastos();
     } else if (opcion === "2") {

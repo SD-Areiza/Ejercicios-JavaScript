@@ -42,7 +42,11 @@ function cancelarReserva() {
 
 let opcion;
 while (opcion !== 4) {
-    opcion = parseInt(prompt("\n1. Mostrar asientos\n2. Reservar asiento\n3. Cancelar reserva\n4. Salir\nSeleccione una opción: "));
+    console.log("1. Mostrar asientos");
+    console.log("2. Reservar asiento");
+    console.log("3. Cancelar reserva");
+    console.log("4. Salir");
+    opcion = parseInt(prompt("Seleccione una opción: "));
     if (opcion === 1) {
         mostrarAsientos();
         break
